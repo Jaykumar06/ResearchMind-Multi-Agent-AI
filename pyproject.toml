@@ -1,3 +1,21 @@
 
+[project]
+name = "researchmind-multi-agent-ai"
+version = "0.1.0"
+description = "Multi-Agent AI Research System"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "pydantic",
+    "langchain",
+    "langchain-groq",
+    "langchain-community",
+    "langchain-core",
+    "langchain-tavily",
+    "streamlit",
+]
+
 [tool.vercel]
 entrypoint = "api:app"
