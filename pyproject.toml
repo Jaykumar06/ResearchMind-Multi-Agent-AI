@@ -1,8 +1,6 @@
-
 [project]
 name = "researchmind-multi-agent-ai"
 version = "0.1.0"
-description = "Multi-Agent AI Research System"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi",
@@ -15,6 +13,8 @@ dependencies = [
     "langchain-core",
     "langchain-tavily",
     "streamlit",
+    "beautifulsoup4",
+    "requests",
 ]
 
 [tool.vercel]
